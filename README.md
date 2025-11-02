@@ -161,8 +161,6 @@ graph LR
 
 [![Install from Chrome Web Store](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png)](PASTE_YOUR_CHROME_STORE_LINK_HERE)
 
-[**👉 Click Here to Install**](PASTE_YOUR_CHROME_STORE_LINK_HERE)
-
 </div>
 
 ### Requirements
