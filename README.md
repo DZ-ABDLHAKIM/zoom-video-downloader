@@ -63,10 +63,10 @@
 <div align="center">
 
 ### Main Interface
-<img src="https://via.placeholder.com/600x400/667eea/ffffff?text=Main+Popup+Screenshot" alt="Main Interface" width="600"/>
+<img src="images/Main-Interface.png" alt="Main Interface" width="600"/>
 
 ### History Management
-<img src="https://via.placeholder.com/600x400/764ba2/ffffff?text=History+Page+Screenshot" alt="History Page" width="600"/>
+<img src="images/Settings-page-History-page.png" alt="History Page" width="600"/>
 
 </div>
 
