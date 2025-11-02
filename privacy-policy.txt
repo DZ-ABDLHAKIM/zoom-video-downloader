@@ -1,0 +1,183 @@
+PRIVACY POLICY
+
+Last Updated: December 2024
+
+ZOOM VIDEO DIRECT DOWNLOADER EXTENSION
+
+1. OVERVIEW
+
+Zoom Video Direct Downloader is a Chrome extension that extracts direct download links from Zoom recordings, events, and clips. This privacy policy explains how we handle your data.
+
+2. DATA WE DO NOT COLLECT
+
+We DO NOT:
+- Collect or track personal information
+- Send data to external servers or third parties
+- Use cookies or tracking pixels
+- Monitor your browsing habits
+- Create user profiles
+- Sell or share your data
+- Collect telemetry or analytics
+
+3. DATA STORED LOCALLY
+
+All data is stored ONLY on your computer in Chrome's local storage:
+
+Extraction History:
+- Zoom recording URLs you extract
+- Direct download links
+- Recording titles and metadata
+- Transcripts (if available)
+- Timestamps of extractions
+
+Extension Settings:
+- Data retention preference (7/30/90 days or indefinitely)
+- Your chosen settings and preferences
+
+Extension Logs:
+- Activity logs for troubleshooting
+- Timestamped records of actions
+- Error messages and status updates
+- Limited to 10MB storage (auto-cleanup)
+
+4. NO CLOUD STORAGE
+
+All data remains on your device. We do NOT upload, transmit, or store anything to:
+- Cloud servers
+- External databases
+- Third-party services
+- Our servers
+
+5. USER CONTROL
+
+You have complete control:
+- View all stored history in Settings
+- Delete individual entries anytime
+- Clear entire history with one click
+- Clear all logs with one click
+- Choose automatic deletion after 7/30/90 days
+- All data persists only until you clear it
+
+6. DATA DELETION
+
+To delete your data:
+1. Open extension Settings (gear icon)
+2. Click "Clear All History" to remove extractions
+3. Click "Clear Logs" to remove activity logs
+4. Uninstall the extension to remove all data
+
+5. WHAT HAPPENS WHEN YOU UNINSTALL
+
+All data is permanently deleted:
+- History cleared from Chrome storage
+- Logs removed
+- Settings reset
+- No traces remain
+
+7. SECURITY
+
+Your local data is protected by:
+- Chrome's storage security mechanisms
+- Your computer's file system permissions
+- No network transmission = no interception risk
+- Browser-enforced isolation
+
+8. ZOOM API DISCLAIMER
+
+This extension:
+- Accesses public Zoom API endpoints
+- Does NOT store your Zoom password or credentials
+- Does NOT authenticate with your Zoom account
+- Works only with publicly accessible recordings
+- Follows Zoom's published API documentation
+
+9. THIRD PARTIES
+
+We do NOT share data with:
+- Google (beyond Chrome telemetry)
+- Zoom (we extract only, no data sent back)
+- Advertisers or marketers
+- Any external services
+
+10. CHANGES TO THIS POLICY
+
+We may update this policy. We will:
+- Notify via extension update notes
+- List changes in changelog
+- Maintain transparency about data practices
+
+11. CONTACT
+
+Questions about privacy?
+- Check extension GitHub: https://github.com/yourusername/zoom-video-downloader
+- Open an issue on GitHub
+- Email: your.email@example.com
+
+12. LEGAL COMPLIANCE
+
+GDPR: No personal data is collected or transmitted
+CCPA: No data sharing occurs
+COPPA: Not targeting minors
+HIPAA: Extension has no healthcare features
+
+13. YOUR RIGHTS
+
+You have the right to:
+- Know what data is stored (visible in Settings)
+- Delete your data anytime
+- Use the extension without tracking
+- Uninstall and have all data removed
+- Request information about data practices
+
+14. DISCLAIMER
+
+This extension:
+- Is NOT affiliated with Zoom Video Communications
+- Is an independent third-party tool
+- Accesses only publicly available information
+- Is provided "AS IS" without warranty
+
+Users are responsible for:
+- Ensuring they have permission to download recordings
+- Complying with Zoom's Terms of Service
+- Following applicable laws and regulations
+- Not violating any platform policies
+
+15. SPECIAL NOTE ABOUT EXTRACTED DATA
+
+When you use this extension:
+- We extract data using publicly documented Zoom APIs
+- We do NOT store any authentication tokens
+- We do NOT access private/password-protected recordings
+- We do NOT access your Zoom account information
+- Download links are temporary (expire in 24-48 hours)
+
+16. DATA RETENTION DEFAULTS
+
+By default:
+- History kept for 30 days
+- You can change to 7, 90 days, or indefinitely
+- Logs limited to 1000 entries or 10MB
+- All deletions are permanent
+
+17. BROWSER STORAGE
+
+We use Chrome's storage.local API:
+- Limited to user's local machine
+- Not synchronized across devices
+- Not accessible by other extensions
+- Subject to browser's storage quota policies
+
+18. FINAL STATEMENT
+
+Your privacy is important. This extension:
+✓ Respects your privacy
+✓ Stores data only locally
+✓ Never transmits personal information
+✓ Gives you complete control
+✓ Is transparent about data practices
+
+---
+
+By using this extension, you agree to this Privacy Policy.
+If you do not agree, please uninstall the extension.
