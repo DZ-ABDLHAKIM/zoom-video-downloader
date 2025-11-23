@@ -91,7 +91,9 @@
 
 ### Step-by-Step Guide
 
-1. **Install** the extension from [Chrome Web Store](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
+1. <a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">
+Install the extension from Chrome Web Store
+</a>
 2. **Navigate** to any Zoom recording URL
 3. **Click** the extension icon in your Chrome toolbar
 4. **Extract** video & transcript (takes 2-5 seconds)
