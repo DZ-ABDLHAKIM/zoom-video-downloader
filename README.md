@@ -11,7 +11,7 @@
 
 **No waiting. No conversion. Direct downloads + automatic transcripts.**
 
-[**📥 Install from Chrome Web Store**](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo) | [**📺 Video Tutorial**](https://youtu.be/zIM589Jm5cc) | [**💬 Support**](#support)
+<a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">**📥 Install from Chrome Web Store**</a> | <a href="https://youtu.be/zIM589Jm5cc" target="_blank" rel="noopener noreferrer">**📺 Video Tutorial**</a> | [**💬 Support**](#support)
 
 <img src="images/icon128.png" alt="Extension Icon" width="120"/>
 
@@ -91,21 +91,15 @@
 
 ### Step-by-Step Guide
 
-1. <strong>Install</strong> the extension from 
-<a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">
-Chrome Web Store
-</a>
-
-2. <strong>Navigate</strong> to any Zoom recording URL  
-3. <strong>Click</strong> the extension icon in your Chrome toolbar  
-4. <strong>Extract</strong> video & transcript (takes 2-5 seconds)  
-5. <strong>Download</strong> - files save automatically to your Downloads folder  
+1. **Install** the extension from <a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">Chrome Web Store</a>
+2. **Navigate** to any Zoom recording URL
+3. **Click** the extension icon in your Chrome toolbar
+4. **Extract** video & transcript (takes 2-5 seconds)
+5. **Download** - files save automatically to your Downloads folder
 
 ### 📺 Watch Tutorial
 
-<a href="https://youtu.be/zIM589Jm5cc" target="_blank" rel="noopener noreferrer">
-<strong>YouTube Tutorial →</strong>
-</a>
+<a href="https://youtu.be/zIM589Jm5cc" target="_blank" rel="noopener noreferrer">**YouTube Tutorial →**</a>
 
 ---
 
@@ -176,7 +170,7 @@ Chrome Web Store
 ❌ Usage analytics  
 ❌ Location data  
 
-[📄 Read Full Privacy Policy](https://raw.githubusercontent.com/DZ-ABDLHAKIM/zoom-video-downloader/main/privacy-policy.txt)
+<a href="https://raw.githubusercontent.com/DZ-ABDLHAKIM/zoom-video-downloader/main/privacy-policy.txt" target="_blank" rel="noopener noreferrer">📄 Read Full Privacy Policy</a>
 
 ---
 
@@ -186,9 +180,11 @@ Chrome Web Store
 
 <div align="center">
 
-[![Install from Chrome Web Store](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
+<a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">
+  <img src="https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png" alt="Install from Chrome Web Store"/>
+</a>
 
-**[Click here to install →](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)**
+<a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">**Click here to install →**</a>
 
 </div>
 
@@ -204,7 +200,7 @@ Chrome Web Store
 
 ### First Time Setup
 
-1. **Install** from [Chrome Web Store](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
+1. **Install** from <a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">Chrome Web Store</a>
 2. **Pin** the extension icon to your toolbar for easy access
 3. **Set preferences** - Click gear icon to choose default options
 4. **Ready!** Navigate to any Zoom recording and start downloading
@@ -214,7 +210,7 @@ Chrome Web Store
 - **Download Queue:** Multiple recordings? Add them all to the queue and monitor progress in Settings
 - **Transcripts:** Automatically fetched when available - perfect for note-taking
 - **History:** Access all past downloads via Settings (⚙️ icon)
-- **Bulk Processing:** Need to process 100s of recordings? Check out [Apify Zoom Scraper](https://apify.com/dz_omar/zoom-scraper)
+- **Bulk Processing:** Need to process 100s of recordings? Check out <a href="https://apify.com/dz_omar/zoom-scraper" target="_blank" rel="noopener noreferrer">Apify Zoom Scraper</a>
 - **Expiration:** Download links expire in 24-48 hours (Zoom's limitation)
 
 ---
@@ -293,9 +289,11 @@ For organizations needing to process large volumes of Zoom recordings, check out
 
 <div align="center">
 
-[![Apify Badge](https://img.shields.io/badge/Apify-Zoom_Scraper-00D4FF?style=for-the-badge&logo=apify)](https://apify.com/dz_omar/zoom-scraper)
+<a href="https://apify.com/dz_omar/zoom-scraper" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Apify-Zoom_Scraper-00D4FF?style=for-the-badge&logo=apify" alt="Apify Badge"/>
+</a>
 
-**[🚀 Apify Zoom Scraper](https://apify.com/dz_omar/zoom-scraper)**
+<a href="https://apify.com/dz_omar/zoom-scraper" target="_blank" rel="noopener noreferrer">**🚀 Apify Zoom Scraper**</a>
 
 *Automate extraction of hundreds of recordings with scheduling and webhooks*
 
@@ -373,8 +371,8 @@ All data stored **on your device only** using Chrome's storage API:
 
 1. **Check Logs:** Settings → View Logs → Download Logs
 2. **Update:** Ensure you have the latest version
-3. **Report:** [Leave feedback on Chrome Store](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews)
-4. **Email:** fridaytechnolog@gmail.com (include logs)
+3. **Report:** <a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews" target="_blank" rel="noopener noreferrer">Leave feedback on Chrome Store</a>
+4. **Email:** <a href="mailto:fridaytechnolog@gmail.com">fridaytechnolog@gmail.com</a> (include logs)
 </details>
 
 ---
@@ -383,10 +381,10 @@ All data stored **on your device only** using Chrome's storage API:
 
 ### Need Help?
 
-- 🌐 **Chrome Store:** [Leave a review or question](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews)
-- 📧 **Email:** fridaytechnolog@gmail.com
-- 📺 **Tutorial:** [Watch on YouTube](https://youtu.be/zIM589Jm5cc)
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/DZ-ABDLHAKIM/zoom-video-downloader/issues)
+- 🌐 **Chrome Store:** <a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews" target="_blank" rel="noopener noreferrer">Leave a review or question</a>
+- 📧 **Email:** <a href="mailto:fridaytechnolog@gmail.com">fridaytechnolog@gmail.com</a>
+- 📺 **Tutorial:** <a href="https://youtu.be/zIM589Jm5cc" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+- 🐛 **Bug Reports:** <a href="https://github.com/DZ-ABDLHAKIM/zoom-video-downloader/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a>
 
 ### When Reporting Bugs, Include:
 
@@ -427,10 +425,18 @@ All data stored **on your device only** using Chrome's storage API:
 
 <div align="center">
 
-[![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/mpdggjbngdhfmkojnemnfpmbbpjkknjo)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
-[![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/mpdggjbngdhfmkojnemnfpmbbpjkknjo)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
-[![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/mpdggjbngdhfmkojnemnfpmbbpjkknjo)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews)
-[![GitHub last commit](https://img.shields.io/github/last-commit/DZ-ABDLHAKIM/zoom-video-downloader)](https://github.com/DZ-ABDLHAKIM/zoom-video-downloader)
+<a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/chrome-web-store/v/mpdggjbngdhfmkojnemnfpmbbpjkknjo" alt="Chrome Web Store Version"/>
+</a>
+<a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/chrome-web-store/users/mpdggjbngdhfmkojnemnfpmbbpjkknjo" alt="Chrome Web Store Users"/>
+</a>
+<a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/chrome-web-store/rating/mpdggjbngdhfmkojnemnfpmbbpjkknjo" alt="Chrome Web Store Rating"/>
+</a>
+<a href="https://github.com/DZ-ABDLHAKIM/zoom-video-downloader" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/github/last-commit/DZ-ABDLHAKIM/zoom-video-downloader" alt="GitHub last commit"/>
+</a>
 
 </div>
 
@@ -505,7 +511,7 @@ By using this extension, you agree to:
 
 If you find this extension helpful:
 
-⭐ **[Rate it 5 stars on Chrome Web Store](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews)**  
+⭐ <a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews" target="_blank" rel="noopener noreferrer">**Rate it 5 stars on Chrome Web Store**</a>  
 📣 **Share with colleagues, classmates, and friends**  
 💬 **Leave constructive feedback**  
 📧 **Suggest new features**  
@@ -517,11 +523,13 @@ If you find this extension helpful:
 
 <div align="center">
 
-[![Chrome Web Store](https://img.shields.io/badge/Install-Chrome%20Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
+<a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Install-Chrome%20Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Chrome Web Store"/>
+</a>
 
 **Download Zoom recordings & transcripts instantly. No waiting, no hassle.**
 
-[**Get Started Now →**](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
+<a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">**Get Started Now →**</a>
 
 </div>
 
@@ -535,7 +543,7 @@ If you find this extension helpful:
 
 ---
 
-[Install Extension](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo) • [Privacy Policy](https://raw.githubusercontent.com/DZ-ABDLHAKIM/zoom-video-downloader/main/privacy-policy.txt) • [Support](mailto:fridaytechnolog@gmail.com) • [Tutorial](https://youtu.be/zIM589Jm5cc)
+<a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">Install Extension</a> • <a href="https://raw.githubusercontent.com/DZ-ABDLHAKIM/zoom-video-downloader/main/privacy-policy.txt" target="_blank" rel="noopener noreferrer">Privacy Policy</a> • <a href="mailto:fridaytechnolog@gmail.com">Support</a> • <a href="https://youtu.be/zIM589Jm5cc" target="_blank" rel="noopener noreferrer">Tutorial</a>
 
 **⭐ Star this repo if it helped you!**
 
