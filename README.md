@@ -91,17 +91,21 @@
 
 ### Step-by-Step Guide
 
-1. <a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">
-Install the extension from Chrome Web Store
+1. <strong>Install</strong> the extension from 
+<a href="https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo" target="_blank" rel="noopener noreferrer">
+Chrome Web Store
 </a>
-2. **Navigate** to any Zoom recording URL
-3. **Click** the extension icon in your Chrome toolbar
-4. **Extract** video & transcript (takes 2-5 seconds)
-5. **Download** - files save automatically to your Downloads folder
+
+2. <strong>Navigate</strong> to any Zoom recording URL  
+3. <strong>Click</strong> the extension icon in your Chrome toolbar  
+4. <strong>Extract</strong> video & transcript (takes 2-5 seconds)  
+5. <strong>Download</strong> - files save automatically to your Downloads folder  
 
 ### 📺 Watch Tutorial
 
-[**YouTube Tutorial →**](YOUR_YOUTUBE_LINK_HERE)
+<a href="https://youtu.be/zIM589Jm5cc" target="_blank" rel="noopener noreferrer">
+<strong>YouTube Tutorial →</strong>
+</a>
 
 ---
 
@@ -381,7 +385,7 @@ All data stored **on your device only** using Chrome's storage API:
 
 - 🌐 **Chrome Store:** [Leave a review or question](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews)
 - 📧 **Email:** fridaytechnolog@gmail.com
-- 📺 **Tutorial:** [Watch on YouTube](YOUR_YOUTUBE_LINK_HERE)
+- 📺 **Tutorial:** [Watch on YouTube](https://youtu.be/zIM589Jm5cc)
 - 🐛 **Bug Reports:** [GitHub Issues](https://github.com/DZ-ABDLHAKIM/zoom-video-downloader/issues)
 
 ### When Reporting Bugs, Include:
@@ -531,7 +535,7 @@ If you find this extension helpful:
 
 ---
 
-[Install Extension](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo) • [Privacy Policy](https://raw.githubusercontent.com/DZ-ABDLHAKIM/zoom-video-downloader/main/privacy-policy.txt) • [Support](mailto:fridaytechnolog@gmail.com) • [Tutorial](YOUR_YOUTUBE_LINK_HERE)
+[Install Extension](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo) • [Privacy Policy](https://raw.githubusercontent.com/DZ-ABDLHAKIM/zoom-video-downloader/main/privacy-policy.txt) • [Support](mailto:fridaytechnolog@gmail.com) • [Tutorial](https://youtu.be/zIM589Jm5cc)
 
 **⭐ Star this repo if it helped you!**
 
