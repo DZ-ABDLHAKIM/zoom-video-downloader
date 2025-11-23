@@ -74,42 +74,18 @@
 ---
 
 ### 📊 Download Queue & Progress Tracking
-<img src="images/Settings-page-History-page.png" alt="Download Queue" width="700"/>
+<img src="images/download-progress.png" alt="Download Queue" width="700"/>
 
 *Monitor multiple downloads with real-time progress bars and concurrent processing*
 
 ---
 
 ### 📚 Complete History Management
-<img src="images/Settings-page-History-page.png" alt="History Management" width="700"/>
+<img src="images/history-settings-view.png" alt="History Management" width="700"/>
 
 *Access all your downloads, copy URLs and transcripts, manage retention settings*
 
 ---
-
-### ✨ Key Features Highlighted
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/fluency/96/000000/download.png" width="64"/><br>
-      <b>Instant Downloads</b><br>
-      <small>Extract in 2-5 seconds</small>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/fluency/96/000000/topic.png" width="64"/><br>
-      <b>Auto Transcripts</b><br>
-      <small>Searchable text included</small>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/fluency/96/000000/privacy.png" width="64"/><br>
-      <b>100% Private</b><br>
-      <small>All data stays local</small>
-    </td>
-  </tr>
-</table>
-
-</div>
 
 ## 🛠️ How It Works
 
