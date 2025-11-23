@@ -66,21 +66,50 @@
 
 <div align="center">
 
-### Main Interface
-<img src="images/Main-Interface.png" alt="Main Interface" width="600"/>
-*Extract recordings and transcripts with one click*
+### 🎯 Main Interface - One-Click Extraction
+<img src="images/Main-Interface.png" alt="Main Interface" width="700"/>
 
-### Download Queue & Progress
-<img src="images/Settings-page-History-page.png" alt="Download Queue" width="600"/>
-*Monitor multiple downloads with real-time progress*
-
-### History Management
-<img src="images/Settings-page-History-page.png" alt="History Page" width="600"/>
-*Access all your downloads with search and filtering*
-
-</div>
+*Simple, intuitive interface - just click "Extract Video & Transcript" to get started*
 
 ---
+
+### 📊 Download Queue & Progress Tracking
+<img src="images/Settings-page-History-page.png" alt="Download Queue" width="700"/>
+
+*Monitor multiple downloads with real-time progress bars and concurrent processing*
+
+---
+
+### 📚 Complete History Management
+<img src="images/Settings-page-History-page.png" alt="History Management" width="700"/>
+
+*Access all your downloads, copy URLs and transcripts, manage retention settings*
+
+---
+
+### ✨ Key Features Highlighted
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/fluency/96/000000/download.png" width="64"/><br>
+      <b>Instant Downloads</b><br>
+      <small>Extract in 2-5 seconds</small>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/fluency/96/000000/topic.png" width="64"/><br>
+      <b>Auto Transcripts</b><br>
+      <small>Searchable text included</small>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://img.icons8.com/fluency/96/000000/privacy.png" width="64"/><br>
+      <b>100% Private</b><br>
+      <small>All data stays local</small>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ## 🛠️ How It Works
 
