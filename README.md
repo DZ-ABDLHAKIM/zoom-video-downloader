@@ -456,18 +456,6 @@ All data stored **on your device only** using Chrome's storage API:
 - Improved error handling for expired links
 - Better memory management for large files
 
-[View Full Changelog](CHANGELOG.md)
-
----
-
-### How to Contribute
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
 ---
 
 ## ⚖️ Legal
@@ -479,8 +467,6 @@ This extension is **NOT affiliated with or endorsed by Zoom Video Communications
 ### License
 
 Copyright © 2024-2025 DZ-ABDLHAKIM
-
-Permission is hereby granted, free of charge, to use, copy, modify, and distribute this software. See [LICENSE](LICENSE) file for details.
 
 ### Terms of Use
 
@@ -505,21 +491,6 @@ If you find this extension helpful:
 📧 **Suggest new features**  
 🐛 **Report bugs to help us improve**
 
----
-
-## 📣 Spread the Word
-
-<div align="center">
-
-[![Chrome Web Store](https://img.shields.io/badge/Install-Chrome%20Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
-
-**Download Zoom recordings & transcripts instantly. No waiting, no hassle.**
-
-[**Get Started Now →**](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
-
-</div>
-
----
 
 <div align="center">
 
@@ -531,6 +502,5 @@ If you find this extension helpful:
 
 [Install Extension](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo) • [Privacy Policy](https://raw.githubusercontent.com/DZ-ABDLHAKIM/zoom-video-downloader/main/privacy-policy.txt) • [Support](mailto:fridaytechnolog@gmail.com) • [Tutorial](https://youtu.be/zIM589Jm5cc)
 
-**⭐ Star this repo if it helped you!**
 
 </div>
