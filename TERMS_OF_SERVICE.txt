@@ -51,7 +51,6 @@ Zoom Recordings:
 - You are responsible for respecting copyright laws
 
 This Extension:
-- Licensed under MIT License (open source)
 - You may modify for personal use
 - You may not sell or claim ownership
 - Source code available on GitHub
