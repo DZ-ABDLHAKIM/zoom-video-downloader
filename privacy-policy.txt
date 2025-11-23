@@ -1,183 +1,300 @@
 PRIVACY POLICY
+Zoom Video & Transcript Downloader Chrome Extension
+Last Updated: November 22, 2024
 
-Last Updated: December 2024
-
-ZOOM VIDEO DIRECT DOWNLOADER EXTENSION
-
+==================================================
 1. OVERVIEW
+==================================================
 
-Zoom Video Direct Downloader is a Chrome extension that extracts direct download links from Zoom recordings, events, and clips. This privacy policy explains how we handle your data.
+Zoom Video & Transcript Downloader is a Chrome extension that helps you download Zoom recordings and transcripts that you have permission to access. This privacy policy explains our data practices in detail.
 
-2. DATA WE DO NOT COLLECT
+==================================================
+2. DATA COLLECTION - WHAT WE DO NOT COLLECT
+==================================================
 
-We DO NOT:
-- Collect or track personal information
-- Send data to external servers or third parties
-- Use cookies or tracking pixels
-- Monitor your browsing habits
-- Create user profiles
-- Sell or share your data
-- Collect telemetry or analytics
+We DO NOT collect or transmit:
+❌ Personal information (name, email, phone)
+❌ Zoom account credentials or passwords
+❌ Browsing history outside of Zoom pages
+❌ User behavior analytics or tracking data
+❌ Location information
+❌ Financial or payment information
+❌ Health information
+❌ Personal communications
 
-3. DATA STORED LOCALLY
+==================================================
+3. LOCAL DATA STORAGE
+==================================================
 
-All data is stored ONLY on your computer in Chrome's local storage:
+All data is stored LOCALLY on your device using Chrome's storage.local API:
 
-Extraction History:
-- Zoom recording URLs you extract
-- Direct download links
-- Recording titles and metadata
-- Transcripts (if available)
-- Timestamps of extractions
+A) DOWNLOAD HISTORY
+   - Zoom recording URLs you've extracted
+   - Download links (temporary, expire after 24-48 hours per Zoom)
+   - Recording metadata (title, duration, file size)
+   - Transcripts (if available)
+   - Download timestamps
 
-Extension Settings:
-- Data retention preference (7/30/90 days or indefinitely)
-- Your chosen settings and preferences
+B) USER PREFERENCES
+   - Default download options (video/transcript)
+   - History retention period (7/30/90 days or indefinite)
+   - Your custom settings
 
-Extension Logs:
-- Activity logs for troubleshooting
-- Timestamped records of actions
-- Error messages and status updates
-- Limited to 10MB storage (auto-cleanup)
+C) EXTENSION LOGS (for debugging)
+   - Operational logs with timestamps
+   - Error messages
+   - Action records
+   - Limited to 1000 entries or 10MB (auto-cleanup)
 
-4. NO CLOUD STORAGE
+ALL THIS DATA:
+✓ Stays on your device
+✓ Is NOT uploaded to any server
+✓ Is NOT shared with third parties
+✓ Can be deleted anytime by you
 
-All data remains on your device. We do NOT upload, transmit, or store anything to:
-- Cloud servers
-- External databases
-- Third-party services
-- Our servers
+==================================================
+4. PERMISSION USAGE EXPLAINED
+==================================================
 
-5. USER CONTROL
+A) COOKIES PERMISSION
+   PURPOSE: Read your Zoom session cookies to download recordings you have access to
+   
+   HOW IT WORKS:
+   - When you click "Download", we read Zoom cookies from your browser
+   - These cookies are sent ONLY to Zoom's servers (not third parties)
+   - This allows downloading private/password-protected recordings you can view
+   - Without this, only public recordings would work
+   
+   WHAT WE DON'T DO:
+   - Store your cookies permanently
+   - Send cookies to our servers (we don't have servers)
+   - Use cookies for tracking
+   - Access non-Zoom cookies
 
-You have complete control:
-- View all stored history in Settings
-- Delete individual entries anytime
-- Clear entire history with one click
-- Clear all logs with one click
-- Choose automatic deletion after 7/30/90 days
-- All data persists only until you clear it
+B) STORAGE PERMISSION
+   PURPOSE: Save download history and settings locally
+   
+   WHAT'S STORED:
+   - Recording URLs and metadata
+   - Your preferences
+   - Extension logs
+   
+   WHERE: Chrome's local storage on YOUR device only
 
-6. DATA DELETION
+C) DOWNLOADS PERMISSION
+   PURPOSE: Save videos and transcripts to your computer
+   
+   HOW IT WORKS:
+   - Triggered only when you click "Download"
+   - Uses browser's native download manager
+   - You control where files are saved
+   - No automatic downloads
 
-To delete your data:
+D) ACTIVETAB PERMISSION
+   PURPOSE: Detect if you're on a Zoom recording page
+   
+   WHAT WE ACCESS:
+   - Current tab URL (only when you click extension icon)
+   - Used to validate it's a Zoom recording page
+   
+   WHAT WE DON'T DO:
+   - Read page content
+   - Inject scripts
+   - Monitor your browsing
+
+E) OFFSCREEN PERMISSION
+   PURPOSE: Download large video files efficiently
+   
+   WHY NEEDED:
+   - Handles multi-GB files without freezing browser
+   - Provides real-time progress updates
+   - Prevents memory crashes
+   
+   TECHNICAL DETAIL:
+   - Creates temporary processing document
+   - Closed automatically after download
+   - No data stored or transmitted
+
+F) DECLARATIVENETREQUEST PERMISSION
+   PURPOSE: Set proper headers for authenticated downloads
+   
+   WHAT IT DOES:
+   - Adds "Referer" header (required by Zoom)
+   - Includes authentication cookies in download requests
+   - ONLY modifies requests to Zoom domains
+   - Temporary rules, removed after download
+   
+   WHY NEEDED:
+   - Modern browsers block certain headers via JavaScript
+   - Without this, downloads would fail with 403 errors
+
+G)  HOST PERMISSIONS (Zoom domains only)
+   - https://*.zoom.us/* (all Zoom subdomains)
+   - https://zoom.us/* (root domain)
+   - https://events.zoom.us/* (events platform)
+
+   WHEN ACCESSED:
+   - ONLY when you click "Extract Video & Transcript"
+   - No background access
+   - No automatic requests
+
+==================================================
+5. DATA FLOW & SECURITY
+==================================================
+
+WHEN YOU USE THIS EXTENSION:
+
+1. YOU click "Extract Video & Transcript" on a Zoom page
+2. Extension reads the page URL (activeTab permission)
+3. Extension requests recording info from Zoom's API (host permissions)
+4. Extension reads your Zoom cookies (cookies permission)
+5. Zoom returns recording data (stored locally)
+6. YOU click "Download"
+7. Extension sends authenticated request to Zoom (with your cookies)
+8. Video downloads to YOUR computer (downloads permission)
+
+DATA NEVER GOES TO:
+❌ Our servers (we don't have any)
+❌ Third-party analytics
+❌ External databases
+❌ Other extensions
+
+SECURITY MEASURES:
+✓ All Zoom requests use HTTPS
+✓ Cookies only sent to Zoom domains
+✓ No external scripts loaded
+✓ Chrome's built-in storage security
+
+==================================================
+6. ZOOM'S PRIVACY POLICY APPLIES
+==================================================
+
+When downloading recordings:
+- You're subject to Zoom's Terms of Service
+- You're subject to Zoom's Privacy Policy: https://zoom.us/privacy
+- We only access recordings you already have permission to view
+- Download links expire per Zoom's security policy (24-48 hours)
+
+IMPORTANT:
+- This extension does NOT give you access to recordings you shouldn't have
+- You must have permission from the recording owner
+- Respect copyright and privacy laws
+
+==================================================
+7. USER CONTROL & DATA DELETION
+==================================================
+
+YOU CAN:
+✓ View all stored data (Settings page)
+✓ Delete individual history entries
+✓ Clear all history (one click)
+✓ Clear all logs (one click)
+✓ Set auto-deletion (7/30/90 days)
+✓ Export logs for review
+
+TO DELETE ALL DATA:
 1. Open extension Settings (gear icon)
-2. Click "Clear All History" to remove extractions
-3. Click "Clear Logs" to remove activity logs
-4. Uninstall the extension to remove all data
+2. Click "Clear All History"
+3. Click "Clear Logs"
+OR
+- Uninstall extension (removes everything)
 
-5. WHAT HAPPENS WHEN YOU UNINSTALL
+UNINSTALL REMOVES:
+✓ All download history
+✓ All settings
+✓ All logs
+✓ No traces remain
 
-All data is permanently deleted:
-- History cleared from Chrome storage
-- Logs removed
-- Settings reset
-- No traces remain
+==================================================
+8. NO DATA SHARING OR SELLING
+==================================================
 
-7. SECURITY
+WE CERTIFY:
+✓ We do NOT sell user data
+✓ We do NOT transfer data to third parties
+✓ We do NOT use data for unrelated purposes
+✓ We do NOT share with advertisers
+✓ We do NOT create user profiles
+✓ We do NOT track across websites
 
-Your local data is protected by:
-- Chrome's storage security mechanisms
-- Your computer's file system permissions
-- No network transmission = no interception risk
-- Browser-enforced isolation
+THE ONLY DATA TRANSMISSION:
+- Your authenticated requests to Zoom's servers (when YOU download)
+- This is necessary for the extension to function
+- No middleman, no our servers
 
-8. ZOOM API DISCLAIMER
+==================================================
+9. LEGAL COMPLIANCE
+==================================================
 
-This extension:
-- Accesses public Zoom API endpoints
-- Does NOT store your Zoom password or credentials
-- Does NOT authenticate with your Zoom account
-- Works only with publicly accessible recordings
-- Follows Zoom's published API documentation
+GDPR (EU): Compliant - minimal local data, user control
+CCPA (California): Compliant - no data selling or sharing
+COPPA (Children): Not targeting children under 13
+Chrome Web Store Policies: Full compliance
 
-9. THIRD PARTIES
-
-We do NOT share data with:
-- Google (beyond Chrome telemetry)
-- Zoom (we extract only, no data sent back)
-- Advertisers or marketers
-- Any external services
-
-10. CHANGES TO THIS POLICY
-
-We may update this policy. We will:
-- Notify via extension update notes
-- List changes in changelog
-- Maintain transparency about data practices
-
-11. CONTACT
-
-Questions about privacy?
-- Check extension GitHub: https://github.com/yourusername/zoom-video-downloader
-- Open an issue on GitHub
-- Email: your.email@example.com
-
-12. LEGAL COMPLIANCE
-
-GDPR: No personal data is collected or transmitted
-CCPA: No data sharing occurs
-COPPA: Not targeting minors
-HIPAA: Extension has no healthcare features
-
-13. YOUR RIGHTS
+==================================================
+10. YOUR RIGHTS
+==================================================
 
 You have the right to:
-- Know what data is stored (visible in Settings)
-- Delete your data anytime
-- Use the extension without tracking
-- Uninstall and have all data removed
-- Request information about data practices
+✓ Know what data is stored (visible in Settings)
+✓ Access your data (Settings page)
+✓ Delete your data (Clear buttons)
+✓ Export your data (Download Logs)
+✓ Use without tracking
+✓ Uninstall and have data removed
 
-14. DISCLAIMER
+==================================================
+11. CHANGES TO THIS POLICY
+==================================================
 
-This extension:
-- Is NOT affiliated with Zoom Video Communications
-- Is an independent third-party tool
-- Accesses only publicly available information
-- Is provided "AS IS" without warranty
+Updates will be:
+- Posted on GitHub with date change
+- Included in extension update notes
+- Notified via Chrome Web Store changelog
 
-Users are responsible for:
-- Ensuring they have permission to download recordings
+Continued use = acceptance of changes
+
+==================================================
+12. DISCLAIMER
+==================================================
+
+This extension is:
+- NOT affiliated with Zoom Video Communications, Inc.
+- An independent third-party tool
+- Provided "AS IS" without warranty
+
+YOU are responsible for:
+- Having permission to download recordings
 - Complying with Zoom's Terms of Service
-- Following applicable laws and regulations
-- Not violating any platform policies
+- Following copyright and privacy laws
+- Not violating platform policies
 
-15. SPECIAL NOTE ABOUT EXTRACTED DATA
+==================================================
+13. CONTACT & SUPPORT
+==================================================
 
-When you use this extension:
-- We extract data using publicly documented Zoom APIs
-- We do NOT store any authentication tokens
-- We do NOT access private/password-protected recordings
-- We do NOT access your Zoom account information
-- Download links are temporary (expire in 24-48 hours)
+Questions about privacy?
+- GitHub: https://github.com/DZ-ABDLHAKIM/zoom-video-downloader
+- Issues: https://github.com/DZ-ABDLHAKIM/zoom-video-downloader/issues
+- Email: fridaytechnolog@gmail.com
 
-16. DATA RETENTION DEFAULTS
 
-By default:
-- History kept for 30 days
-- You can change to 7, 90 days, or indefinitely
-- Logs limited to 1000 entries or 10MB
-- All deletions are permanent
+==================================================
+14. CONSENT
+==================================================
 
-17. BROWSER STORAGE
+By installing and using this extension, you:
+✓ Consent to this privacy policy
+✓ Understand data is stored locally
+✓ Agree to responsible use of downloaded content
+✓ Accept the disclaimers stated above
 
-We use Chrome's storage.local API:
-- Limited to user's local machine
-- Not synchronized across devices
-- Not accessible by other extensions
-- Subject to browser's storage quota policies
-
-18. FINAL STATEMENT
-
-Your privacy is important. This extension:
-✓ Respects your privacy
-✓ Stores data only locally
-✓ Never transmits personal information
-✓ Gives you complete control
-✓ Is transparent about data practices
-
----
-
-By using this extension, you agree to this Privacy Policy.
 If you do not agree, please uninstall the extension.
+
+==================================================
+
+© 2024-2025 DZ-ABDLHAKIM
+MIT License
+Last Updated: November 22, 2024
+
+==================================================
