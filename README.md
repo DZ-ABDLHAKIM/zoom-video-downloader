@@ -1,16 +1,17 @@
-# 🎥 Zoom Video Direct Downloader
+# 🎥 Zoom Video & Transcript Downloader
 
 <div align="center">
 
-![Extension Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-orange.svg)
-![License](https://img.shields.io/badge/license-Proprietary-red.svg)
+![Extension Version](https://img.shields.io/badge/version-1.0.1-blue.svg)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mpdggjbngdhfmkojnemnfpmbbpjkknjo.svg)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
+[![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/mpdggjbngdhfmkojnemnfpmbbpjkknjo)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-### Extract & Download Zoom Recordings in Seconds
+### Download Zoom Recordings & Transcripts with One Click
 
-**No waiting. No conversion. Just direct MP4 downloads.**
+**No waiting. No conversion. Direct downloads + automatic transcripts.**
 
-[**📥 Install Extension**](PASTE_YOUR_CHROME_STORE_LINK_HERE) | [**📖 Documentation**](#features) | [**💬 Support**](#support)
+[**📥 Install from Chrome Web Store**](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo) | [**📺 Video Tutorial**](https://youtu.be/zIM589Jm5cc) | [**💬 Support**](#support)
 
 <img src="images/icon128.png" alt="Extension Icon" width="120"/>
 
@@ -20,16 +21,17 @@
 
 ## 🚀 What Does This Extension Do?
 
-**Zoom Video Direct Downloader** extracts **direct download links** from Zoom recordings instantly. Stop waiting for Zoom's slow processing—get your videos now.
+**Zoom Video & Transcript Downloader** extracts direct download links from Zoom recordings and automatically fetches transcripts. Perfect for students, professionals, and educators who need to save and organize Zoom content.
 
 ### ✨ Key Features
 
 | Feature | Description |
 |---------|-------------|
-| **🎬 Direct Downloads** | Extract MP4 links in 2-5 seconds |
-| **📝 Auto Transcripts** | Get searchable transcripts with videos |
-| **📋 Smart History** | Save up to 50 extractions with metadata |
-| **🔒 100% Private** | Everything stored locally—zero tracking |
+| **🎬 One-Click Downloads** | Extract MP4 links in seconds |
+| **📝 Auto Transcripts** | Get searchable transcripts automatically |
+| **📋 Download Queue** | Queue multiple recordings with progress tracking |
+| **📚 Smart History** | Track all downloads with searchable records |
+| **🔒 100% Private** | Everything stored locally zero tracking |
 | **⚡ Multi-Format** | Works with recordings, events, and clips |
 
 ---
@@ -40,7 +42,8 @@
   <tr>
     <td align="center">
       <h3>🎥 Zoom Recordings</h3>
-      <code>zoom.us/rec/play/...</code>
+      <code>zoom.us/rec/play/...</code><br>
+      <code>zoom.us/rec/share/...</code>
       <p>Personal & shared recordings</p>
     </td>
     <td align="center">
@@ -50,7 +53,8 @@
     </td>
     <td align="center">
       <h3>✂️ Zoom Clips</h3>
-      <code>zoom.us/clips/share/...</code>
+      <code>zoom.us/clips/share/...</code><br>
+      <code>zoom.us/clips/embed/...</code>
       <p>Clipped segments & shares</p>
     </td>
   </tr>
@@ -64,32 +68,33 @@
 
 ### Main Interface
 <img src="images/Main-Interface.png" alt="Main Interface" width="600"/>
+*Extract recordings and transcripts with one click*
+
+### Download Queue & Progress
+<img src="images/Settings-page-History-page.png" alt="Download Queue" width="600"/>
+*Monitor multiple downloads with real-time progress*
 
 ### History Management
 <img src="images/Settings-page-History-page.png" alt="History Page" width="600"/>
+*Access all your downloads with search and filtering*
 
 </div>
-
-> 💡 **Tip:** Replace placeholder images with actual screenshots after publishing
 
 ---
 
 ## 🛠️ How It Works
 
-```mermaid
-graph LR
-    A[Visit Zoom Recording] --> B[Click Extension Icon]
-    B --> C[Click 'Extract Video']
-    C --> D[Get Download Link]
-    D --> E[Download MP4 or Copy Link]
-```
+### Step-by-Step Guide
 
-### Step-by-Step
+1. **Install** the extension from [Chrome Web Store](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
+2. **Navigate** to any Zoom recording URL
+3. **Click** the extension icon in your Chrome toolbar
+4. **Extract** video & transcript (takes 2-5 seconds)
+5. **Download** - files save automatically to your Downloads folder
 
-1. **Navigate** to any Zoom recording URL
-2. **Click** the extension icon in your Chrome toolbar
-3. **Extract** the video link (takes 2-5 seconds)
-4. **Download** directly or copy the link
+### 📺 Watch Tutorial
+
+[**YouTube Tutorial →**](YOUR_YOUTUBE_LINK_HERE)
 
 ---
 
@@ -97,12 +102,12 @@ graph LR
 
 ### ✅ Advantages Over Other Methods
 
-| Method | Time | Quality | Ease |
-|--------|------|---------|------|
-| **Our Extension** | ⚡ 2-5 sec | 🎯 Original MP4 | ✅ One-click |
-| Screen Recording | 🐢 Full video length | 📉 Compressed | ❌ Manual setup |
-| Zoom Download Button | ⏳ 5-30 min wait | ✅ Original | ⚠️ Not always available |
-| Third-Party Sites | 🐌 10-60 min | ❓ Unknown | ❌ Upload required |
+| Method | Time | Quality | Transcripts | Ease |
+|--------|------|---------|-------------|------|
+| **Our Extension** | ⚡ 2-5 sec | 🎯 Original MP4 | ✅ Auto-fetched | ✅ One-click |
+| Screen Recording | 🐢 Full video length | 📉 Compressed | ❌ None | ❌ Manual |
+| Zoom Download Button | ⏳ 5-30 min wait | ✅ Original | ⚠️ Manual export | ⚠️ Sometimes unavailable |
+| Third-Party Sites | 🐌 10-60 min | ❓ Unknown | ❌ None | ❌ Upload required |
 
 ---
 
@@ -114,24 +119,27 @@ graph LR
       <h3>📚 Students</h3>
       <ul>
         <li>Download lectures instantly</li>
-        <li>Get transcripts for notes</li>
-        <li>Study offline anytime</li>
+        <li>Get transcripts for study notes</li>
+        <li>Access content offline anytime</li>
+        <li>Review recordings at your pace</li>
       </ul>
     </td>
     <td>
       <h3>👨‍💼 Professionals</h3>
       <ul>
         <li>Archive important meetings</li>
-        <li>Share recordings easily</li>
+        <li>Share recordings with team</li>
         <li>Backup training sessions</li>
+        <li>Create searchable knowledge base</li>
       </ul>
     </td>
     <td>
-      <h3>🎥 Content Creators</h3>
+      <h3>🎓 Educators</h3>
       <ul>
-        <li>Repurpose webinar content</li>
-        <li>Edit Zoom recordings</li>
-        <li>Create highlight reels</li>
+        <li>Save teaching materials</li>
+        <li>Provide offline resources</li>
+        <li>Edit and repurpose content</li>
+        <li>Build course libraries</li>
       </ul>
     </td>
   </tr>
@@ -145,11 +153,19 @@ graph LR
 
 ✅ **100% Local Storage** - Everything saved on your device  
 ✅ **Zero Tracking** - No analytics or telemetry  
-✅ **No Account Required** - Works immediately  
-✅ **No External Servers** - Direct Zoom API calls only  
-✅ **Open Logging** - Full transparency in extension logs  
+✅ **No Account Required** - Works immediately after install  
+✅ **No External Servers** - We don't have any servers  
+✅ **Minimal Permissions** - Only accesses Zoom domains  
 
-[📄 Read Full Privacy Policy](privacy-policy.txt)
+### What We DON'T Collect
+
+❌ Personal information  
+❌ Browsing history  
+❌ Zoom credentials  
+❌ Usage analytics  
+❌ Location data  
+
+[📄 Read Full Privacy Policy](https://raw.githubusercontent.com/DZ-ABDLHAKIM/zoom-video-downloader/main/privacy-policy.txt)
 
 ---
 
@@ -159,15 +175,17 @@ graph LR
 
 <div align="center">
 
-[![Install from Chrome Web Store](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png)](PASTE_YOUR_CHROME_STORE_LINK_HERE)
+[![Install from Chrome Web Store](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/iNEddTyWiMfLSwFD6qGq.png)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
+
+**[Click here to install →](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)**
 
 </div>
 
 ### Requirements
 
-- Google Chrome (version 88+)
-- Internet connection
-- Access to Zoom recordings you're authorized to view
+- ✅ Google Chrome (version 88+) or Chromium-based browsers
+- ✅ Internet connection
+- ✅ Access to Zoom recordings you're authorized to view
 
 ---
 
@@ -175,24 +193,50 @@ graph LR
 
 ### First Time Setup
 
-1. **Install** the extension from Chrome Web Store
-2. **Pin** the extension icon to your toolbar (optional)
-3. **Navigate** to any Zoom recording page
-4. **Click** the extension icon
-5. **Extract** and download!
+1. **Install** from [Chrome Web Store](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
+2. **Pin** the extension icon to your toolbar for easy access
+3. **Set preferences** - Click gear icon to choose default options
+4. **Ready!** Navigate to any Zoom recording and start downloading
 
 ### Pro Tips 💡
 
-- **History:** View all extractions in Settings (⚙️ icon)
-- **Transcripts:** Automatically fetched with downloads
-- **Links Expire:** Download within 24-48 hours
+- **Download Queue:** Multiple recordings? Add them all to the queue and monitor progress in Settings
+- **Transcripts:** Automatically fetched when available - perfect for note-taking
+- **History:** Access all past downloads via Settings (⚙️ icon)
 - **Bulk Processing:** Need to process 100s of recordings? Check out [Apify Zoom Scraper](https://apify.com/dz_omar/zoom-scraper)
+- **Expiration:** Download links expire in 24-48 hours (Zoom's limitation)
+
+---
+
+## ⚡ Features in Detail
+
+### 📥 Download Queue System
+
+- Download multiple recordings simultaneously (up to 2 concurrent)
+- Real-time progress tracking with percentage and file size
+- Pause/cancel individual downloads
+- Automatic retry on failures
+
+### 📋 Smart History Management
+
+- Tracks all extractions with metadata
+- Search and filter by title or date
+- Copy URLs and transcripts with one click
+- Configurable retention (7/30/90 days or indefinite)
+- Export logs for troubleshooting
+
+### 🎛️ Customizable Preferences
+
+- Choose default download options (video, transcript, or both)
+- Set history retention period
+- Manage download queue
+- View detailed logs
 
 ---
 
 ## ⚠️ Important Notes
 
-### Legal Usage
+### Legal & Ethical Usage
 
 This extension is designed for **authorized use only**:
 
@@ -209,23 +253,24 @@ This extension is designed for **authorized use only**:
 
 ### Technical Limitations
 
-- ⏰ Download links expire after 24-48 hours (Zoom limitation)
-- 🔒 Cannot bypass password-protected recordings
-- 📝 Transcripts only available if enabled in Zoom
+- ⏰ Download links expire after 24-48 hours (Zoom's security policy)
+- 📝 Transcripts only available if enabled in original Zoom recording
 - 🌐 Requires internet connection
+- 💾 Large files (>2GB) may take time to process
 
 ---
 
-## 🆚 Comparison with Competitors
+## 🆚 Comparison with Alternatives
 
-| Feature | This Extension | Other Tools |
-|---------|---------------|-------------|
-| Speed | ⚡ 2-5 seconds | 🐌 5-60 minutes |
-| Privacy | 🔒 100% local | ⚠️ Upload required |
-| Transcripts | ✅ Included | ❌ Manual export |
-| Price | 💰 Free | 💸 Often paid |
-| Multi-format | ✅ 3 types | ⚠️ Usually 1 type |
-| Chrome Integration | ✅ Native | ❌ Web-based |
+| Feature | This Extension | Screen Recording | Zoom's Native | Third-Party Sites |
+|---------|---------------|------------------|---------------|-------------------|
+| Speed | ⚡ 2-5 seconds | 🐢 Full duration | ⏳ 5-30 min | 🐌 10-60 min |
+| Quality | 🎯 Original MP4 | 📉 Compressed | ✅ Original | ❓ Varies |
+| Transcripts | ✅ Auto-fetched | ❌ None | ⚠️ Manual | ❌ None |
+| Privacy | 🔒 100% local | ✅ Local | ⚠️ Cloud | ❌ Upload required |
+| Queue | ✅ Multiple | ❌ One-by-one | ❌ Serial | ❌ Limited |
+| Price | 💰 Free | ✅ Free | ✅ Free | 💸 Often paid |
+| Offline | ✅ Yes | ✅ Yes | ⚠️ Sometimes | ❌ No |
 
 ---
 
@@ -237,63 +282,88 @@ For organizations needing to process large volumes of Zoom recordings, check out
 
 <div align="center">
 
-[**🚀 Apify Zoom Scraper**](https://apify.com/dz_omar/zoom-scraper)
+[![Apify Badge](https://img.shields.io/badge/Apify-Zoom_Scraper-00D4FF?style=for-the-badge&logo=apify)](https://apify.com/dz_omar/zoom-scraper)
 
-*Automate extraction of hundreds of recordings*
+**[🚀 Apify Zoom Scraper](https://apify.com/dz_omar/zoom-scraper)**
+
+*Automate extraction of hundreds of recordings with scheduling and webhooks*
 
 </div>
 
 ---
 
-## 📊 What Gets Stored?
+## 📊 What Gets Stored Locally?
 
-All data stored **locally on your device**:
+All data stored **on your device only** using Chrome's storage API:
 
 - 📌 Zoom recording URLs you extract
-- 🔗 Direct download links (temporary)
-- 📝 Recording titles and metadata
+- 🔗 Direct download links (temporary, expire in 24-48h)
+- 📝 Recording titles and metadata (duration, file size)
 - 📄 Transcripts (if available)
 - 📅 Extraction timestamps
-- ⚙️ Your settings preferences
+- ⚙️ Your settings and preferences
+- 🐛 Extension logs (for debugging, max 10MB)
 
-**Nothing is ever transmitted to external servers.**
+**Nothing is ever transmitted to external servers or third parties.**
 
 ---
 
 ## 🛠️ Troubleshooting
 
 <details>
-<summary><b>Extension won't extract</b></summary>
+<summary><b>❌ Extension button is grayed out</b></summary>
 
-- Verify you're on a valid Zoom recording page
-- Check you have access to the recording
-- Try refreshing the page
-- Clear browser cache and retry
+**Solution:**
+- Verify you're on a valid Zoom recording page (zoom.us/rec/, events.zoom.us, or zoom.us/clips/)
+- Refresh the page
+- Check that the URL is one of the supported formats
 </details>
 
 <details>
-<summary><b>Download link expired</b></summary>
+<summary><b>🔗 "Download link expired" error</b></summary>
 
-- Links expire in 24-48 hours (Zoom limitation)
-- Simply extract a fresh link
-- Download immediately for best results
+**Solution:**
+- Links expire in 24-48 hours due to Zoom's security
+- Simply extract a fresh link (takes 2-5 seconds)
+- Download immediately after extraction for best results
 </details>
 
 <details>
-<summary><b>No transcript available</b></summary>
+<summary><b>📝 No transcript available</b></summary>
 
-- Recording must have captions enabled
+**Solution:**
+- Recording must have had captions/transcription enabled during meeting
 - Not all recordings have transcripts
-- Check Zoom recording settings
+- Check with recording owner to enable captions for future meetings
+</details>
+
+<details>
+<summary><b>⏸️ Download stuck at 0%</b></summary>
+
+**Solution:**
+- Check your internet connection
+- Try canceling and re-adding to queue
+- Verify you have write permissions to Downloads folder
+- Check extension logs (Settings → View Logs)
+</details>
+
+<details>
+<summary><b>🚫 "Failed to extract" error</b></summary>
+
+**Solution:**
+- Ensure you have permission to view the recording
+- Try opening the recording in Zoom first
+- Check if recording is still processing (wait 5-10 minutes)
+- Clear browser cache and retry
 </details>
 
 <details>
 <summary><b>Still having issues?</b></summary>
 
-1. Check extension logs (Settings → View Logs)
-2. Ensure you have the latest version
-3. Contact support via Chrome Web Store reviews
-4. Email: fridaytechnolog@gmail.com
+1. **Check Logs:** Settings → View Logs → Download Logs
+2. **Update:** Ensure you have the latest version
+3. **Report:** [Leave feedback on Chrome Store](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews)
+4. **Email:** fridaytechnolog@gmail.com (include logs)
 </details>
 
 ---
@@ -302,32 +372,43 @@ All data stored **locally on your device**:
 
 ### Need Help?
 
+- 🌐 **Chrome Store:** [Leave a review or question](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews)
 - 📧 **Email:** fridaytechnolog@gmail.com
-- 🌐 **Chrome Store:** [Leave a review or question](PASTE_YOUR_CHROME_STORE_LINK_HERE)
-- 💬 **Issues:** Check existing reviews for solutions
+- 📺 **Tutorial:** [Watch on YouTube](YOUR_YOUTUBE_LINK_HERE)
+- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/DZ-ABDLHAKIM/zoom-video-downloader/issues)
 
-### Report Bugs
+### When Reporting Bugs, Include:
 
-Please include:
-- Chrome version
-- Extension version
+- Chrome version (chrome://version)
+- Extension version (visible in Settings)
 - Zoom URL type (recording/events/clips)
-- Error message (if any)
+- Error message (screenshot or text)
 - Extension logs (Settings → Download Logs)
 
 ---
 
 ## 🗺️ Roadmap
 
-### Coming Soon
+### ✅ Completed (v1.0.1)
 
-- [ ] Firefox support
-- [ ] Batch download multiple recordings
+- Direct MP4 download extraction
+- Automatic transcript fetching
+- Download queue with progress tracking
+- Smart history management
+- Local-only storage
+- Multi-format support (recordings, events, clips)
+
+### 🚧 Coming Soon
+
+- [ ] Firefox extension port
+- [ ] Batch download from list
 - [ ] Custom filename templates
-- [ ] Download quality selector
+- [ ] Download quality selector (when available)
 - [ ] Export history as CSV
+- [ ] Dark mode UI
+- [ ] Keyboard shortcuts
 
-*Vote for features in Chrome Store reviews!*
+*Vote for features by leaving suggestions in Chrome Store reviews!*
 
 ---
 
@@ -335,52 +416,52 @@ Please include:
 
 <div align="center">
 
-![GitHub last commit](https://img.shields.io/github/last-commit/DZ-ABDLHAKIM/zoom-video-downloader)
-![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/YOUR_EXTENSION_ID)
-![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/YOUR_EXTENSION_ID)
+[![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/mpdggjbngdhfmkojnemnfpmbbpjkknjo)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
+[![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/mpdggjbngdhfmkojnemnfpmbbpjkknjo)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
+[![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/mpdggjbngdhfmkojnemnfpmbbpjkknjo)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews)
+[![GitHub last commit](https://img.shields.io/github/last-commit/DZ-ABDLHAKIM/zoom-video-downloader)](https://github.com/DZ-ABDLHAKIM/zoom-video-downloader)
 
 </div>
 
 ---
 
-## 🎉 Featured By
-
-> *Add media mentions, blog features, or testimonials here after launch*
-
----
-
 ## 📜 Version History
 
-### v1.0.0 (Initial Release)
+### v1.0.1 (Current - November 2024)
 
-✨ **Features**
+**✨ Features**
 - Direct MP4 download link extraction
 - Automatic transcript fetching
+- Download queue with concurrent downloads
+- Real-time progress tracking
 - Smart history with deduplication
-- Data retention controls (7/30/90 days)
-- Built-in logging system
+- Data retention controls (7/30/90 days or indefinite)
+- Built-in logging system for debugging
 - Professional UI with smooth animations
 
-🔒 **Security**
+**🔒 Security & Privacy**
 - Local-only data storage
-- No external tracking
-- Proper error handling
-- Retry logic with backoff
+- No external tracking or analytics
+- Minimal required permissions
+- Proper error handling with retry logic
+- Secure HTTPS-only requests
+
+**🐛 Bug Fixes**
+- Fixed transcript extraction for clips
+- Improved error handling for expired links
+- Better memory management for large files
 
 [View Full Changelog](CHANGELOG.md)
 
 ---
 
-## 🤝 Contributing
+### How to Contribute
 
-This is **proprietary software** and not open source. However, we welcome:
-
-- 🐛 Bug reports
-- 💡 Feature suggestions
-- 📝 Documentation improvements
-- 🌍 Translation contributions
-
-Contact: fridaytechnolog@gmail.com
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
 
 ---
 
@@ -388,23 +469,22 @@ Contact: fridaytechnolog@gmail.com
 
 ### Disclaimer
 
-This extension is **NOT affiliated with Zoom Video Communications**. It's an independent third-party tool that uses publicly documented Zoom APIs.
+This extension is **NOT affiliated with or endorsed by Zoom Video Communications, Inc.** It's an independent third-party tool that uses Zoom's public APIs.
 
 ### License
 
-**Proprietary Software - All Rights Reserved**
+Copyright © 2024-2025 DZ-ABDLHAKIM
 
-© 2024 DZ-ABDLHAKIM. This software may not be copied, modified, distributed, or used without explicit permission.
+Permission is hereby granted, free of charge, to use, copy, modify, and distribute this software. See [LICENSE](LICENSE) file for details.
 
-For licensing inquiries: fridaytechnolog@gmail.com
-
-### Terms of Service
+### Terms of Use
 
 By using this extension, you agree to:
-- Use only for authorized recordings
+- Use only for recordings you're authorized to access
 - Comply with Zoom's Terms of Service
-- Respect intellectual property rights
+- Respect intellectual property and copyright
 - Follow applicable laws and regulations
+- Not use for unauthorized access or data theft
 
 [Read Full Terms](TERMS_OF_SERVICE.txt)
 
@@ -414,10 +494,11 @@ By using this extension, you agree to:
 
 If you find this extension helpful:
 
-⭐ **Rate it on Chrome Web Store**  
-📣 **Share with colleagues and friends**  
+⭐ **[Rate it 5 stars on Chrome Web Store](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo/reviews)**  
+📣 **Share with colleagues, classmates, and friends**  
 💬 **Leave constructive feedback**  
-📧 **Suggest new features**
+📧 **Suggest new features**  
+🐛 **Report bugs to help us improve**
 
 ---
 
@@ -425,11 +506,11 @@ If you find this extension helpful:
 
 <div align="center">
 
-[![Chrome Web Store](https://img.shields.io/badge/Install-Chrome%20Extension-blue?style=for-the-badge&logo=googlechrome)](PASTE_YOUR_CHROME_STORE_LINK_HERE)
+[![Chrome Web Store](https://img.shields.io/badge/Install-Chrome%20Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
 
-**Download Zoom recordings instantly. No waiting, no hassle.**
+**Download Zoom recordings & transcripts instantly. No waiting, no hassle.**
 
-[**Get Started Now →**](PASTE_YOUR_CHROME_STORE_LINK_HERE)
+[**Get Started Now →**](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo)
 
 </div>
 
@@ -439,10 +520,12 @@ If you find this extension helpful:
 
 ### Made with ❤️ by DZ-ABDLHAKIM
 
-**Simplifying Zoom recording downloads, one extraction at a time.**
+**Simplifying Zoom recording management, one download at a time.**
 
 ---
 
-[Install Extension](PASTE_YOUR_CHROME_STORE_LINK_HERE) • [Privacy Policy](privacy-policy.txt) • [Terms](TERMS_OF_SERVICE.txt) • [Support](mailto:fridaytechnolog@gmail.com)
+[Install Extension](https://chromewebstore.google.com/detail/mpdggjbngdhfmkojnemnfpmbbpjkknjo) • [Privacy Policy](https://raw.githubusercontent.com/DZ-ABDLHAKIM/zoom-video-downloader/main/privacy-policy.txt) • [Support](mailto:fridaytechnolog@gmail.com) • [Tutorial](YOUR_YOUTUBE_LINK_HERE)
+
+**⭐ Star this repo if it helped you!**
 
 </div>
